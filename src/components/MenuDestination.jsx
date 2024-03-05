@@ -16,7 +16,7 @@ function MenuDestination(){
     console.log(path);
     let list = count.map((item) =>{
                 return (
-                   <li  className={path != "d"+item.id ? "hover:underline underline-offset-8 decoration-4 decoration-slate-500":"underline-offset-8 decoration-4 underline decoration-white"}><a href={"/destination/"+item.id}>{item.fr_name}</a></li>
+                   <li  className={path != "d"+item.id ? "hover:underline underline-offset-8 decoration-4 decoration-slate-500":"underline-offset-8 decoration-4   underline decoration-white"}><a href={"/destination/"+item.id}>{item.fr_name}</a></li>
                 ) 
     }); 
 
